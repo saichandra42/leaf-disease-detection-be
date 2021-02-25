@@ -27,4 +27,6 @@ def cnn_model_prediction(path):
         message = "Infected with Bacteria(Leaf spot disease)- Use Carbendazim 1gm or Mancozeb 2gm or Chlorothalanil 2g, hexaconazole 2 ml/litre of water at 15 days interval starting from 4-5 weeks after planting."
     elif(y_classes==2):
         message = "Infected with Fungus(Tikka disease)- spray application of Carbendazim 1gm or Mancozeb 2gm or Chlorothalanil 2g, hexaconazole 2 ml/litre of water at 15 days interval starting from 4-5 weeks after planting."
+    elif(y_classes==0:
+        message = "Something wrong"
     return message   
